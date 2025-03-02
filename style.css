@@ -25,9 +25,13 @@ main {
     border: 10px;
 }
 
+/* profile picture */
+
 img {
     border-radius: 50%;
 }
+
+/* name */
 
 h1 {
     color: hsl(0, 0%, 100%);
@@ -35,6 +39,8 @@ h1 {
     font-size: 26px;
     text-align: center;
 }
+
+/* location */
 
 h2 {
     color: hsl(75, 94%, 57%);
@@ -44,6 +50,8 @@ h2 {
     line-height: .25;
 }
 
+/* quote */
+
 p {
     color: hsl(0, 0%, 100%);
     font-weight: 400;
@@ -51,6 +59,8 @@ p {
     font-size: 14px;
     padding: 14px;
 }
+
+/* quote */
 
 .profile-links {
     display: flex;
@@ -67,3 +77,21 @@ button {
     text-align: center;
 }
 
+@media (max-width: 1440px)
+{
+    main {
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .profile-picture {
+        display: flex;
+        justify-items: center;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+@media (min-width: 1440px)
