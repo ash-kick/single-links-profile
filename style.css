@@ -77,6 +77,9 @@ button {
     text-align: center;
 }
 
+
+/* smaller screen sizes */
+
 @media (max-width: 1440px)
 {
     main {
@@ -98,6 +101,9 @@ button {
         width: 7rem;
     }
 }
+
+/* larger screen sizes */
+
 @media (min-width: 1440px) {
 
     main {
