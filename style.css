@@ -81,8 +81,12 @@ button {
 {
     main {
         display: flex;
-        padding: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         justify-content: center;
+        align-items: center;
+        height: 35rem;
+        margin: auto;
     }
 
     .profile-picture {
@@ -91,7 +95,28 @@ button {
     }
 
     img {
-        width: 50%;
+        width: 7rem;
     }
 }
-@media (min-width: 1440px)
+@media (min-width: 1440px) {
+
+    main {
+        display: flex;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        justify-content: center;
+        align-items: center;
+        height: 40rem;
+        width: 25rem;
+        margin: auto;
+    }
+
+    .profile-picture {
+        display: flex;
+        justify-items: center;
+    }
+
+    img {
+        width: 7rem;
+    }
+}
