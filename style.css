@@ -112,8 +112,8 @@ button {
         padding-top: 0px;
         justify-content: center;
         align-items: center;
-        height: 40rem;
-        width: 25rem;
+        height: 45rem;
+        width: 30rem;
         margin: auto;
     }
 
@@ -124,5 +124,10 @@ button {
 
     img {
         width: 7rem;
+    }
+
+    button {
+        padding: 15px;
+        font-weight: 600;
     }
 }
